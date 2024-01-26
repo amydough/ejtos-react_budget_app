@@ -17,7 +17,6 @@ const Currency = () => {
 
 return (<div
     style={{
-      backgroundColor: 'lightgreen',
       padding: 10,
       margin: 4
     }}
@@ -25,6 +24,7 @@ return (<div
     <div>
     <label htmlFor="inputCurrencySElect01">Currency ({selectedCurrency})</label>
     <select
+      style={{backgroundColor: 'lightgreen' }}
       className="custom-select"
       id="inputCurrencySelect01"
       value={selectedCurrency}
