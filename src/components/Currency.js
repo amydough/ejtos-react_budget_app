@@ -9,10 +9,11 @@ const Currency = () => {
     const newCurrency = event.target.value;
     setSelectedCurrency(newCurrency);
     dispatch({
-        type: 'CHANGE_CURRENCY',
+        type: 'CHG_CURRENCY',
         payload: newCurrency,
       });
   }
+
 
 return (<div
     style={{
