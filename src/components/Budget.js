@@ -11,7 +11,7 @@ const Budget = () => {
 
 		
 		if(val<totalExpenses) {
-			alert("You cannot reduce the budget lower than spending!");
+			alert("You cannot reduce the budget that is already allocated!");
 		} 
 
         else if (val>20000){
